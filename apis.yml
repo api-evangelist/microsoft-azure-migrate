@@ -1,0 +1,32 @@
+aid: microsoft-azure-migrate
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/apis.yml
+apis:
+  - aid: microsoft-azure-migrate:rest-api
+    name: Azure Migrate REST API
+    tags:
+      - Migration
+      - Assessment
+      - Discovery
+      - Cloud Migration
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://management.azure.com/
+    humanURL: https://learn.microsoft.com/en-us/rest/api/migrate/
+    properties:
+      - url: https://learn.microsoft.com/en-us/rest/api/migrate/
+        type: Documentation
+    description: >-
+      Azure Migrate REST API enables programmatic management of migration projects, discovery assessments, and server migrations. It supports discovering on-premises servers, assessing readiness for Azure migration, and executing migrations of VMs, databases, and web apps.
+common:
+  - type: Portal
+    url: https://portal.azure.com/
+  - type: Pricing
+    url: https://azure.microsoft.com/en-us/pricing/
+  - type: Terms of Service
+    url: https://www.microsoft.com/en-us/legal/terms-of-use
+  - type: Privacy Policy
+    url: https://privacy.microsoft.com/en-us/privacystatement
+  - type: Support
+    url: https://support.microsoft.com/
+maintainers:
+  - name: Kin Lane
+    email: kin@apievangelist.com
