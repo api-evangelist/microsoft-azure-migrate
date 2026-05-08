@@ -32,6 +32,8 @@ apis:
       - Migration
       - Project Management
     properties:
+      - url: openapi/microsoft-azure-migrate-openapi.yml
+        type: OpenAPI
       - type: Documentation
         url: https://learn.microsoft.com/en-us/rest/api/migrate/projects
       - type: Authentication
