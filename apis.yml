@@ -38,7 +38,7 @@ apis:
         url: https://learn.microsoft.com/en-us/rest/api/migrate/projects
       - type: Authentication
         url: https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow
-      - type: Getting Started
+      - type: GettingStarted
         url: https://learn.microsoft.com/en-us/azure/migrate/create-manage-projects
   - name: Azure Migrate Assessments API
     description: >-
@@ -59,7 +59,7 @@ apis:
         url: https://learn.microsoft.com/en-us/rest/api/migrate/assessment
       - type: Reference
         url: https://learn.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation
-      - type: Getting Started
+      - type: GettingStarted
         url: https://learn.microsoft.com/en-us/azure/migrate/tutorial-discover-vmware
   - name: Azure Migrate Discovery API
     description: >-
@@ -97,7 +97,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/rest/api/migrate/migration
-      - type: Getting Started
+      - type: GettingStarted
         url: https://learn.microsoft.com/en-us/azure/migrate/tutorial-migrate-vmware
   - name: Azure Database Migration Service API
     description: >-
@@ -119,7 +119,7 @@ apis:
         url: https://learn.microsoft.com/en-us/rest/api/datamigration
       - type: Reference
         url: https://learn.microsoft.com/en-us/azure/dms/dms-overview
-      - type: Getting Started
+      - type: GettingStarted
         url: https://learn.microsoft.com/en-us/azure/dms/quickstart-create-data-migration-service-portal
   - name: Azure Migrate Web Apps Assessment API
     description: >-
@@ -182,7 +182,7 @@ common:
     url: https://portal.azure.com
   - type: Documentation
     url: https://learn.microsoft.com/en-us/azure/migrate/
-  - type: Getting Started
+  - type: GettingStarted
     url: https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview
   - type: Authentication
     url: https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow
@@ -190,25 +190,25 @@ common:
     url: https://learn.microsoft.com/en-us/azure/developer/
   - type: Pricing
     url: https://azure.microsoft.com/en-us/pricing/details/azure-migrate/
-  - type: Status
+  - type: StatusPage
     url: https://status.azure.com/
   - type: Support
     url: https://azure.microsoft.com/en-us/support/options/
   - type: Blog
     url: https://azure.microsoft.com/en-us/blog/tag/azure-migrate/
-  - type: Change Log
+  - type: ChangeLog
     url: https://learn.microsoft.com/en-us/azure/migrate/whats-new
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://azure.microsoft.com/en-us/support/legal/
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://privacy.microsoft.com/en-us/privacystatement
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/Azure
   - type: Website
     url: https://azure.microsoft.com/en-us/products/azure-migrate
   - type: Login
     url: https://portal.azure.com
-  - type: Sign Up
+  - type: SignUp
     url: https://azure.microsoft.com/en-us/free
 maintainers:
   - FN: Kin Lane
