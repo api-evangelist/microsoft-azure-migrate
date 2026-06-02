@@ -2,12 +2,20 @@
   "repo": "microsoft-azure-migrate",
   "feeds": [
     {
-      "source": "https://azure.microsoft.com/en-us/blog/tag/azure-migrate/",
+      "source": "https://azure.microsoft.com/en-us/blog/tag/azure-migrate/feed/",
       "feed_url": "https://azure.microsoft.com/en-us/blog/tag/azure-migrate/feed/",
-      "title": "Azure Migrate | Microsoft Azure Blog | Microsoft Azure",
-      "saved": 10
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://azure.microsoft.com/en-us/support/options/",
+      "feed_url": "https://azure.microsoft.com/en-us/support/options/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 20,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
