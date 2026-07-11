@@ -165,6 +165,10 @@ apis:
       - type: Reference
         url: https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview
 common:
+  - type: DomainSecurity
+    url: security/microsoft-azure-migrate-domain-security.yml
+  - type: Authentication
+    url: authentication/microsoft-azure-migrate-authentication.yml
   - type: OAuthScopes
     url: scopes/microsoft-azure-migrate-scopes.yml
   - type: Portal
