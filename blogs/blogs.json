@@ -2,11 +2,13 @@
   "repo": "microsoft-azure-migrate",
   "feeds": [
     {
-      "source": "https://azure.microsoft.com/en-us/blog/tag/azure-migrate/",
+      "source": "https://azure.microsoft.com/en-us/support/options/",
+      "feed_url": "https://azure.microsoft.com/en-us/support/options/",
+      "title": "",
       "saved": 0,
-      "error": "timeout on all WebFetch attempts"
+      "method": "none"
     }
   ],
   "post_count": 21,
-  "fetched": "2026-06-27T12:54:18Z"
+  "fetched": "2026-07-11T11:50:51Z"
 }
