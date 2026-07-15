@@ -165,6 +165,8 @@ apis:
       - type: Reference
         url: https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview
 common:
+  - type: AgenticAccess
+    url: agentic-access/microsoft-azure-migrate-agentic-access.yml
   - type: DomainSecurity
     url: security/microsoft-azure-migrate-domain-security.yml
   - type: Authentication
