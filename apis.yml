@@ -121,6 +121,11 @@ apis:
   - App Service
   - ASP.NET
   - Java
+  - Web App
+  tags_raw:
+  - App Service
+  - ASP.NET
+  - Java
   - Web Apps
   properties:
   - type: Documentation
@@ -170,7 +175,8 @@ apis:
   description: Operations operations
   humanURL: https://learn.microsoft.com/en-us/rest/api/migrate/projects
   baseURL: https://management.azure.com
-  tags:
+  tags: []
+  tags_raw:
   - Operations
   properties:
   - type: OpenAPI
@@ -188,6 +194,8 @@ apis:
   humanURL: https://learn.microsoft.com/en-us/rest/api/migrate/projects
   baseURL: https://management.azure.com
   tags:
+  - Project
+  tags_raw:
   - Projects
   properties:
   - type: OpenAPI
