@@ -30,7 +30,6 @@ accessModel:
   method: derived
 image: https://azure.microsoft.com/svghandler/azure-migrate/
 tags:
-  - Assessment
   - Cloud Migration
   - Database Migration
   - Discovery
@@ -267,3 +266,5 @@ maintainers:
     email: kin@apievangelist.com
 x-parent: microsoft-azure
 x-relationship: product
+x-tags-removed:
+- Assessment
