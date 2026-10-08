@@ -219,6 +219,12 @@ apis:
   - type: GettingStarted
     url: https://learn.microsoft.com/en-us/azure/migrate/create-manage-projects
 common:
+  - type: Plans
+    url: plans/microsoft-azure-migrate-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/microsoft-azure-migrate-rate-limits.yml
+  - type: FinOps
+    url: finops/microsoft-azure-migrate-finops.yml
   - type: AgenticAccess
     url: agentic-access/microsoft-azure-migrate-agentic-access.yml
   - type: DomainSecurity
