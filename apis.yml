@@ -171,6 +171,12 @@ apis:
   humanURL: https://learn.microsoft.com/en-us/rest/api/recoveryservices
   baseURL: https://management.azure.com
   tags:
+  - Speech Recognition
+  - Disaster Recovery
+  - Recovery Vault
+  - Replication
+  - Site Recovery
+  tags_raw:
   - ASR
   - Disaster Recovery
   - Recovery Vault
