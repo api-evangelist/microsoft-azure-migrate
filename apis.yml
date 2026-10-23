@@ -225,6 +225,8 @@ apis:
   - type: GettingStarted
     url: https://learn.microsoft.com/en-us/azure/migrate/create-manage-projects
 common:
+  - type: PostmanWorkspace
+    url: https://www.postman.com/kinlaneapi/azure-migrate/overview
   - type: Plans
     url: plans/microsoft-azure-migrate-plans-pricing.yml
   - type: RateLimits
