@@ -1,4 +1,4 @@
-# Azure Migrate (microsoft-azure-migrate)
+# Azure Migrate
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,219 +66,140 @@
 
 Azure Migrate provides a unified platform for discovering, assessing, and migrating on-premises servers, infrastructure, applications, databases, and data to Azure. Its REST APIs enable programmatic management of migration projects, discovery, assessment, and replication workflows for VMs, databases, and web apps.
 
-**APIs.json:** [https://azure.microsoft.com/en-us/services/azure-migrate/](https://azure.microsoft.com/en-us/services/azure-migrate/)
+**Areas:** Cloud Migration · Database Migration · Discovery · Migration · Replication · Server Migration
 
-## Tags
+## Azure Migrate on APIs.io
 
-- Assessment
-- Cloud Migration
-- Database Migration
-- Discovery
-- Migration
-- Replication
-- Server Migration
+Everything profiled for Azure Migrate is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microsoft-azure-migrate/](https://apis.io/providers/microsoft-azure-migrate/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (9)
 
-- **Created:** 2026-03-13
-- **Modified:** 2026-05-19
+- [Azure Migrate Assessments API](https://apis.io/apis/microsoft-azure-migrate/azure-migrate-assessments-api/) — Create and manage assessments that evaluate on-premises servers and databases for Azure readiness, sizing, and cost. Returns Azure VM readiness, recommended…
+- [Azure Migrate Discovery API](https://apis.io/apis/microsoft-azure-migrate/azure-migrate-discovery-api/) — Manage discovery sites and inventory of on-premises servers, databases, and applications. Provides agentless and agent-based discovery for VMware, Hyper-V,…
+- [Azure Migrate Server Migration API](https://apis.io/apis/microsoft-azure-migrate/azure-migrate-server-migration-api/) — Replicate, test migrate, and migrate on-premises servers including VMware, Hyper-V, and physical machines to Azure. Manages replication jobs, fabrics, and…
+- [Azure Database Migration Service API](https://apis.io/apis/microsoft-azure-migrate/azure-database-migration-service-api/) — Streamline the migration of on-premises databases to Azure data platforms with minimal downtime. Supports SQL Server, MySQL, PostgreSQL, MongoDB, and Oracle…
+- [Azure Migrate Web Apps Assessment API](https://apis.io/apis/microsoft-azure-migrate/azure-migrate-web-apps-assessment-api/) — Discover and assess on-premises ASP.NET and Java web apps running on IIS and Tomcat for migration to Azure App Service. Returns readiness findings,…
+- [Azure Migrate Data Box API](https://apis.io/apis/microsoft-azure-migrate/azure-migrate-data-box-api/) — Order and manage Azure Data Box devices for offline data transfer of large datasets to Azure when network bandwidth is limited or unavailable. Supports Data…
+- [Azure Site Recovery API](https://apis.io/apis/microsoft-azure-migrate/azure-site-recovery-api/) — Replicate workloads running on physical and virtual machines from a primary site to a secondary location for disaster recovery and migration. Manages…
+- [Azure Migrate Operations API](https://apis.io/apis/microsoft-azure-migrate/microsoft-azure-migrate-operations-api/) — Operations operations
+- [Azure Migrate Projects API](https://apis.io/apis/microsoft-azure-migrate/microsoft-azure-migrate-projects-api/) — Projects operations
 
-## APIs
+### Published properties
 
-### Azure Migrate Projects API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Create and manage Azure Migrate projects which serve as the central container for discovery, assessment, and migration activities. Projects group related assessment and migration solutions for a workload.
+#### Agentic access (1)
 
-- **Human URL:** [https://learn.microsoft.com/en-us/rest/api/migrate/projects](https://learn.microsoft.com/en-us/rest/api/migrate/projects)
-- **Base URL:** `https://management.azure.com`
+Which operations an agent can call, which act, and which need a human in the loop.
 
-#### Tags
+- [Microsoft Azure Migrate Agentic Access](https://apis.io/agentic-access/microsoft-azure-migrate/microsoft-azure-migrate-agentic-access/)
 
-- Migrate Project
-- Migration
-- Project Management
+#### Collections (3)
 
-#### Properties
+Postman and Open Collection request collections.
 
-- [OpenAPI](openapi/microsoft-azure-migrate-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/microsoft-azure-migrate.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/microsoft-azure-migrate.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-- [Documentation](https://learn.microsoft.com/en-us/rest/api/migrate/projects)
-- [Authentication](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow)
-- [Getting Started](https://learn.microsoft.com/en-us/azure/migrate/create-manage-projects)
+- [Azure Migrate REST API](https://apis.io/collections/microsoft-azure-migrate/open-microsoft-azure-migrate/)
+- [Azure Migrate REST Operations API](https://apis.io/collections/microsoft-azure-migrate/open-microsoft-azure-migrate-operations-api/)
+- [Azure Migrate REST Operations Projects API](https://apis.io/collections/microsoft-azure-migrate/open-microsoft-azure-migrate-projects-api/)
 
-### Azure Migrate Assessments API
+#### Security (2)
 
-Create and manage assessments that evaluate on-premises servers and databases for Azure readiness, sizing, and cost. Returns Azure VM readiness, recommended SKUs, monthly cost estimates, and migration compatibility findings.
+Authentication, trust centre, and vulnerability disclosure.
 
-- **Human URL:** [https://learn.microsoft.com/en-us/rest/api/migrate/assessment](https://learn.microsoft.com/en-us/rest/api/migrate/assessment)
-- **Base URL:** `https://management.azure.com`
+- [Microsoft Azure Migrate Authentication](https://apis.io/security/microsoft-azure-migrate/microsoft-azure-migrate-authentication/)
+- [Microsoft Azure Migrate Domain Security](https://apis.io/security/microsoft-azure-migrate/microsoft-azure-migrate-domain-security/)
 
-#### Tags
+#### OAuth scopes (1)
 
-- Assessment
-- Cost Estimation
-- Readiness
-- Sizing
+The permissions the API asks for.
 
-#### Properties
+- [Microsoft Azure Migrate Scopes](https://apis.io/scopes/microsoft-azure-migrate/microsoft-azure-migrate-scopes/)
 
-- [Documentation](https://learn.microsoft.com/en-us/rest/api/migrate/assessment)
-- [Reference](https://learn.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation)
-- [Getting Started](https://learn.microsoft.com/en-us/azure/migrate/tutorial-discover-vmware)
-- [Postman Collection](collections/microsoft-azure-migrate.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/microsoft-azure-migrate.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+#### Plans and pricing (1)
 
-### Azure Migrate Discovery API
+Published plans, tiers and prices.
 
-Manage discovery sites and inventory of on-premises servers, databases, and applications. Provides agentless and agent-based discovery for VMware, Hyper-V, and physical servers as a basis for assessment and migration planning.
+- [Microsoft Azure Migrate Plans Pricing](https://apis.io/plans/microsoft-azure-migrate/microsoft-azure-migrate-plans-pricing/)
 
-- **Human URL:** [https://learn.microsoft.com/en-us/rest/api/migrate/discovery](https://learn.microsoft.com/en-us/rest/api/migrate/discovery)
-- **Base URL:** `https://management.azure.com`
+#### Rate limits (1)
 
-#### Tags
+Published request limits.
 
-- Agentless
-- Discovery
-- Hyper-V
-- Inventory
-- VMware
+- [Microsoft Azure Migrate Rate Limits](https://apis.io/rate-limits/microsoft-azure-migrate/microsoft-azure-migrate-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
-- [Documentation](https://learn.microsoft.com/en-us/rest/api/migrate/discovery)
-- [Reference](https://learn.microsoft.com/en-us/azure/migrate/migrate-appliance)
-- [Postman Collection](collections/microsoft-azure-migrate.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/microsoft-azure-migrate.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+What the API costs to run, by operation.
 
-### Azure Migrate Server Migration API
+- [Microsoft Azure Migrate Finops](https://apis.io/finops/microsoft-azure-migrate/microsoft-azure-migrate-finops/)
 
-Replicate, test migrate, and migrate on-premises servers including VMware, Hyper-V, and physical machines to Azure. Manages replication jobs, fabrics, and protected items used for server migration.
+## Where to find this API
 
-- **Human URL:** [https://learn.microsoft.com/en-us/rest/api/migrate/migration](https://learn.microsoft.com/en-us/rest/api/migrate/migration)
-- **Base URL:** `https://management.azure.com`
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-#### Tags
-
-- Cutover
-- Replication
-- Server Migration
-- Test Migration
-
-#### Properties
-
-- [Documentation](https://learn.microsoft.com/en-us/rest/api/migrate/migration)
-- [Getting Started](https://learn.microsoft.com/en-us/azure/migrate/tutorial-migrate-vmware)
-- [Postman Collection](collections/microsoft-azure-migrate.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/microsoft-azure-migrate.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### Azure Database Migration Service API
-
-Streamline the migration of on-premises databases to Azure data platforms with minimal downtime. Supports SQL Server, MySQL, PostgreSQL, MongoDB, and Oracle source databases moving to Azure SQL, Azure Database services, or Cosmos DB.
-
-- **Human URL:** [https://learn.microsoft.com/en-us/rest/api/datamigration](https://learn.microsoft.com/en-us/rest/api/datamigration)
-- **Base URL:** `https://management.azure.com`
-
-#### Tags
-
-- Database Migration
-- DMS
-- MySQL
-- PostgreSQL
-- SQL Server
-
-#### Properties
-
-- [Documentation](https://learn.microsoft.com/en-us/rest/api/datamigration)
-- [Reference](https://learn.microsoft.com/en-us/azure/dms/dms-overview)
-- [Getting Started](https://learn.microsoft.com/en-us/azure/dms/quickstart-create-data-migration-service-portal)
-- [Postman Collection](collections/microsoft-azure-migrate.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/microsoft-azure-migrate.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### Azure Migrate Web Apps Assessment API
-
-Discover and assess on-premises ASP.NET and Java web apps running on IIS and Tomcat for migration to Azure App Service. Returns readiness findings, configuration issues, and recommended Azure App Service plans.
-
-- **Human URL:** [https://learn.microsoft.com/en-us/azure/migrate/concepts-azure-webapps-assessment-calculation](https://learn.microsoft.com/en-us/azure/migrate/concepts-azure-webapps-assessment-calculation)
-- **Base URL:** `https://management.azure.com`
-
-#### Tags
-
-- App Service
-- ASP.NET
-- Java
-- Web Apps
-
-#### Properties
-
-- [Documentation](https://learn.microsoft.com/en-us/azure/migrate/how-to-create-azure-app-service-assessment)
-- [Reference](https://learn.microsoft.com/en-us/azure/migrate/concepts-azure-webapps-assessment-calculation)
-- [Postman Collection](collections/microsoft-azure-migrate.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/microsoft-azure-migrate.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### Azure Migrate Data Box API
-
-Order and manage Azure Data Box devices for offline data transfer of large datasets to Azure when network bandwidth is limited or unavailable. Supports Data Box, Data Box Disk, and Data Box Heavy offerings.
-
-- **Human URL:** [https://learn.microsoft.com/en-us/rest/api/databox](https://learn.microsoft.com/en-us/rest/api/databox)
-- **Base URL:** `https://management.azure.com`
-
-#### Tags
-
-- Data Box
-- Offline Transfer
-- Storage Migration
-
-#### Properties
-
-- [Documentation](https://learn.microsoft.com/en-us/rest/api/databox)
-- [Reference](https://learn.microsoft.com/en-us/azure/databox/data-box-overview)
-- [Postman Collection](collections/microsoft-azure-migrate.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/microsoft-azure-migrate.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### Azure Site Recovery API
-
-Replicate workloads running on physical and virtual machines from a primary site to a secondary location for disaster recovery and migration. Manages recovery vaults, replication policies, protected items, and recovery plans.
-
-- **Human URL:** [https://learn.microsoft.com/en-us/rest/api/recoveryservices](https://learn.microsoft.com/en-us/rest/api/recoveryservices)
-- **Base URL:** `https://management.azure.com`
-
-#### Tags
-
-- ASR
-- Disaster Recovery
-- Recovery Vault
-- Replication
-- Site Recovery
-
-#### Properties
-
-- [Documentation](https://learn.microsoft.com/en-us/rest/api/recoveryservices)
-- [Reference](https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview)
-- [Postman Collection](collections/microsoft-azure-migrate.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/microsoft-azure-migrate.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-## Common Properties
-
-- [Portal](https://portal.azure.com)
-- [Documentation](https://learn.microsoft.com/en-us/azure/migrate/)
-- [Getting Started](https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview)
-- [Authentication](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow)
-- [S D Ks](https://learn.microsoft.com/en-us/azure/developer/)
-- [Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-migrate/)
-- [Status Page](https://status.azure.com/)
-- [Support](https://azure.microsoft.com/en-us/support/options/)
-- [Blog](https://azure.microsoft.com/en-us/blog/tag/azure-migrate/)
-- [Changelog](https://learn.microsoft.com/en-us/azure/migrate/whats-new)
-- [Terms of Service](https://azure.microsoft.com/en-us/support/legal/)
-- [Privacy Policy](https://privacy.microsoft.com/en-us/privacystatement)
-- [GitHub Organization](https://github.com/Azure)
 - [Website](https://azure.microsoft.com/en-us/products/azure-migrate)
-- [Login](https://portal.azure.com)
-- [Sign Up](https://azure.microsoft.com/en-us/free)
-- [L L Ms Txt](https://portal.azure.com/llms.txt)
+- [Documentation](https://learn.microsoft.com/en-us/azure/migrate/)
+- [Getting started](https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview)
+- [Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-migrate/)
+- [Support](https://azure.microsoft.com/en-us/support/options/)
+- [Changelog](https://learn.microsoft.com/en-us/azure/migrate/whats-new)
+- [Blog](https://azure.microsoft.com/en-us/blog/tag/azure-migrate/)
+- [Terms of service](https://azure.microsoft.com/en-us/support/legal/)
+- [Privacy policy](https://privacy.microsoft.com/en-us/privacystatement)
+- [GitHub](https://github.com/Azure)
+- [Status](https://status.azure.com/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 51.9** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 85.7 |
+| Contract quality | 44.1 |
+| Contract governance | 0.0 |
+| Operational transparency | 42.1 |
+| Developer ergonomics | 63.1 |
+| Access clarity | 52.6 |
+
+**Agent readiness 19.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/microsoft-azure-migrate/](https://apis.io/providers/microsoft-azure-migrate/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Azure Migrate: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microsoft-azure-migrate/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
